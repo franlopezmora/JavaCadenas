@@ -22,6 +22,14 @@ public class MasConcatenacionCadenas {
         String resultado = constructorCadenas.toString();
         System.out.println("resultado = " + resultado);
 
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append(cadena1).append(" ").append(cadena2);
+        System.out.println("stringBuffer = " + stringBuffer);
 
+        String stringBuffer1 = stringBuffer.toString();
+        System.out.println("stringBuffer1 = " + stringBuffer1);
+
+        stringBuffer1 = String.join(" ", cadena1, cadena2);
+        System.out.println("stringBuffer1 = " + stringBuffer1);
     }
 }

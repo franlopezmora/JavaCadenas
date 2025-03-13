@@ -12,7 +12,6 @@ public class ReemplazSubcadenas {
 
         //Las cadenas son inmutables, ejecutar el metodo replace, simplemente crea un objeto nuevo, no modifica el original
 
-        //Hola mundo
-        var hola = "Hola";
+
     }
 }
